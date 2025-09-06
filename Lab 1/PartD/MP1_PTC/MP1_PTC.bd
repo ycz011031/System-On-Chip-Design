@@ -1,14 +1,13 @@
 {
   "design": {
     "design_info": {
-      "boundary_crc": "0x47987535E252B3FF",
+      "boundary_crc": "0x47987535A74D0D51",
       "device": "xc7z020clg400-1",
       "gen_directory": "../../../../mp1_c.gen/sources_1/bd/MP1_PTC",
       "name": "MP1_PTC",
       "rev_ctrl_bd_flag": "RevCtrlBdOff",
       "synth_flow_mode": "Hierarchical",
-      "tool_version": "2025.1",
-      "validated": "true"
+      "tool_version": "2025.1"
     },
     "design_tree": {
       "processing_system7_0": "",
@@ -1698,12 +1697,6 @@
           },
           "PCW_USB0_PERIPHERAL_ENABLE": {
             "value": "0"
-          },
-          "PCW_USB0_RESET_ENABLE": {
-            "value": "1"
-          },
-          "PCW_USB0_RESET_IO": {
-            "value": "MIO 46"
           },
           "PCW_USB1_PERIPHERAL_ENABLE": {
             "value": "0"
