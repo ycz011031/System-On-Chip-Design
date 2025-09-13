@@ -1,7 +1,7 @@
 {
   "design": {
     "design_info": {
-      "boundary_crc": "0x47987535E252B3FF",
+      "boundary_crc": "0x47987535A74D0D51",
       "device": "xc7z020clg400-1",
       "gen_directory": "../../../../mp1_c.gen/sources_1/bd/MP1_PTC",
       "name": "MP1_PTC",
@@ -1699,12 +1699,6 @@
           "PCW_USB0_PERIPHERAL_ENABLE": {
             "value": "0"
           },
-          "PCW_USB0_RESET_ENABLE": {
-            "value": "1"
-          },
-          "PCW_USB0_RESET_IO": {
-            "value": "MIO 46"
-          },
           "PCW_USB1_PERIPHERAL_ENABLE": {
             "value": "0"
           },
@@ -2116,10 +2110,10 @@
       "processing_system7_0_FCLK_CLK0": {
         "ports": [
           "processing_system7_0/FCLK_CLK0",
-          "smartconnect_0/aclk",
           "axi_gpio_0/s_axi_aclk",
           "proc_sys_reset_0/slowest_sync_clk",
-          "processing_system7_0/M_AXI_GP0_ACLK"
+          "processing_system7_0/M_AXI_GP0_ACLK",
+          "smartconnect_0/aclk"
         ]
       },
       "processing_system7_0_FCLK_RESET0_N": {
